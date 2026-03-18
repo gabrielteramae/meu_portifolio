@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Gabriel Teramae Chan">
+    <meta name="keywords"
+        content="Gabriel Teramae Chan, ESG, Risco Socioambiental, Compliance, Azure Databricks, Python, Banco Bmg, Gestão Ambiental, USP, Portfólio">
+    <meta name="author" content="Gabriel Teramae Chan">
+    <meta name="language" content="pt-BR">
+    <meta name="rating" content="general">
+    <title>Meu Portifólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="loading-screen">
+        <div class="loading-content">
+            <div class="loading-name">Olá!</div>
+            <div class="loading-msg">Seja Bem-Vindo :)</div>
+            <div class="loading-bar">
+                <div class="loading-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <div class="nav-logo">Gabriel Teramae Chan</div>
+        <div class="nav-links">
+            <a href="#education"><i class="ri-graduation-cap-line"></i> Formação</a>
+            <a href="#experience"><i class="ri-briefcase-line"></i> Experiência</a>
+            <a href="#skills"><i class="ri-code-s-slash-line"></i> Skills</a>
+            <a href="#certifications"><i class="ri-award-line"></i> Certificações</a>
+        </div>
+        <a href="mailto:gabrielhaogoldie@gmail.com" class="btn-dark nav-cta">Entre em contato</a>
+    </nav>
+
+    <div style="max-width:1100px; margin:0 auto;">
+        <section id="hero">
+            <div class="hero-left">
+                <img src="foto.png" alt="Gabriel Teramae Chan">
+                <h1 class="hero-title">Gabriel Teramae</h1>
+                <p class="hero-sub">Assistente de Risco Social, Ambiental e Climático no Banco Bmg.</p>
+                <div class="hero-bullets">
+                    <div class="hero-bullet">• Profissional Bancário</div>
+                    <div class="hero-bullet">• Setor de Riscos & Compliance</div>
+                    <div class="hero-bullet">• Mais de 6 meses de experiência</div>
+                    <div class="hero-bullet">• Cursando Gestão Ambiental pela Universidade de São Paulo</div>
+                </div>
+                <div class="hero-btns">
+                    <a href="https://linkedin.com/in/gabriel-teramae-chan-00552a2b7" target="_blank"
+                        class="btn-outline">Ver LinkedIn →</a>
+                    <a href="curriculo.pdf" target="_blank" class="btn-outline">Ver Currículo →</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="section" id="education">
+        <div class="section-label">Formação</div>
+        <h2 class="section-title">Educação</h2>
+        <div class="edu-list">
+            <div class="edu-card fade">
+                <div class="edu-icon">🎓</div>
+                <div>
+                    <div class="edu-degree">Bacharelado em Gestão Ambiental</div>
+                    <div class="edu-school">Universidade de São Paulo - EACH</div>
+                    <div class="edu-years">2024 - 2027 · Em andamento</div>
+                </div>
+            </div>
+            <div class="edu-card fade">
+                <div class="edu-icon">📚</div>
+                <div>
+                    <div class="edu-degree">Bacharelado em Administração</div>
+                    <div class="edu-school">Universidade Presbiteriana Mackenzie</div>
+                    <div class="edu-years">2024 - 2024</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-alt">
+        <div class="section" id="experience">
+            <div class="section-label">Experiência</div>
+            <h2 class="section-title">Trajetória Profissional</h2>
+            <div class="exp-list">
+
+                <div class="exp-card fade">
+                    <div>
+                        <div class="exp-top">
+                            <span class="exp-company-badge" style="background:orange; color:black;">Banco Bmg</span>
+                        </div>
+                        <div class="exp-role">Assistente de Risco Social, Ambiental e Climático (SAC)</div>
+                        <div class="exp-meta">nov 2025 - presente · Tempo integral · Híbrido · São Paulo, SP</div>
+                        <p class="exp-desc">Atuação na gestão de riscos socioambientais e climáticos. Fornecendo insumos
+                            analíticos para processos de governança e decisões da área de Risco de Crédito. Manipulação
+                            e tratamento de dados em Azure Databricks com Python para automatizar processos.</p>
+                    </div>
+                </div>
+
+                <div class="exp-card fade">
+                    <div>
+                        <div class="exp-top">
+                            <span class="exp-company-badge" style="background:rgb(134,160,255); color:black;">Faculdade
+                                CTA</span>
+                        </div>
+                        <div class="exp-role">Estagiário</div>
+                        <div class="exp-meta">jun 2025 - ago 2025 · 3 meses · Presencial · São Paulo, SP</div>
+                        <p class="exp-desc">Análises de dados e relatórios para tomada de decisão. Atividades de social
+                            selling e gestão de leads com Excel, Google Sheets e CRM.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="skills">
+        <div class="section-label">Competências</div>
+        <h2 class="section-title">Hard & Soft Skills</h2>
+
+        <div class="skills-tabs">
+            <button class="tab-btn active" onclick="showTab('esg', event)">ESG & Compliance</button>
+            <button class="tab-btn" onclick="showTab('dados', event)">Dados & Tecnologia</button>
+            <button class="tab-btn" onclick="showTab('soft', event)">Idiomas & Soft Skills</button>
+            <button class="tab-btn" onclick="showTab('tools', event)">Ferramentas de Desenvolvimento</button>
+        </div>
+
+        <div class="tab-content active" id="tab-esg">
+            <div class="skill-card">
+                <div class="skill-title">ESG & Compliance</div>
+                <div class="skill-list">
+                    <div class="skill-item">PRSAC / GRSAC / DRSAC</div>
+                    <div class="skill-item">Políticas e Normativos ESG</div>
+                    <div class="skill-item">Gestão de Riscos Socioambientais</div>
+                    <div class="skill-item">Normas ISO</div>
+                    <div class="skill-item">IFRS</div>
+                    <div class="skill-item">PLD / FTP</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-content" id="tab-dados">
+            <div class="skill-card">
+                <div class="skill-title">Dados & Tecnologia</div>
+                <div class="skill-list">
+                    <div class="skill-item">Azure Databricks</div>
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">MySQL / SQL</div>
+                    <div class="skill-item">Power BI</div>
+                    <div class="skill-item">Excel Avançado</div>
+                    <div class="skill-item">Google Sheets</div>
+                    <div class="skill-item">HTML, CSS e JavaScript</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-content" id="tab-soft">
+            <div class="skill-card">
+                <div class="skill-title">Idiomas & Soft Skills</div>
+                <div class="skill-list">
+                    <div class="skill-item">Inglês - C1 Avançado</div>
+                    <div class="skill-item">Português - Nativo</div>
+                    <div class="skill-item">Resolução de Problemas</div>
+                    <div class="skill-item">Trabalho em Equipe</div>
+                    <div class="skill-item">Comunicação</div>
+                    <div class="skill-item">Gestão Ambiental</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-content" id="tab-tools">
+            <div class="skill-card">
+                <div class="skill-title">Ferramentas de Desenvolvimento</div>
+                <div class="skill-list">
+                    <div class="skill-item">Visual Studio Code</div>
+                    <div class="skill-item">Azure (Microsoft Azure)</div>
+                    <div class="skill-item">Git</div>
+                    <div class="skill-item">GitHub</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-alt">
+        <div class="section" id="certifications">
+            <div class="section-label">Certificações</div>
+            <h2 class="section-title">Licenças & Certificados</h2>
+            <div class="certs-grid">
+                <div class="cert-card fade">
+                    <div class="cert-issuer anbima">ANBIMA</div>
+                    <div class="cert-name">Fundamentos de Economia e Finanças</div>
+                    <div class="cert-date">fev 2026</div>
+                </div>
+                <div class="cert-card fade">
+                    <div class="cert-issuer anbima">ANBIMA</div>
+                    <div class="cert-name">Inovação no Mercado Financeiro</div>
+                    <div class="cert-date">jan 2026</div>
+                </div>
+                <div class="cert-card fade">
+                    <div class="cert-issuer rocketseat">ROCKETSEAT</div>
+                    <div class="cert-name">Fundamentos da Programação</div>
+                    <div class="cert-date">dez 2025</div>
+                </div>
+                <div class="cert-card fade">
+                    <div class="cert-issuer databricks">DATABRICKS</div>
+                    <div class="cert-name">Databricks Fundamentals Accreditation</div>
+                    <div class="cert-date">nov 2025</div>
+                </div>
+                <div class="cert-card fade">
+                    <div class="cert-issuer b3">B3</div>
+                    <div class="cert-name">Responsabilidade Social, Ambiental e Climática</div>
+                    <div class="cert-date">nov 2025</div>
+                </div>
+                <div class="cert-card fade">
+                    <div class="cert-issuer b3">B3</div>
+                    <div class="cert-name">PLD / FTP</div>
+                    <div class="cert-date">nov 2025</div>
+                </div>
+                <div class="cert-card fade">
+                    <div class="cert-issuer anbima">ANBIMA</div>
+                    <div class="cert-name">Gestão de Riscos e Performance</div>
+                    <div class="cert-date">nov 2025</div>
+                </div>
+                <div class="cert-card fade">
+                    <div class="cert-issuer anbima">ANBIMA</div>
+                    <div class="cert-name">Fundos de Investimento</div>
+                    <div class="cert-date">set 2025</div>
+                </div>
+                <div class="cert-card fade">
+                    <div class="cert-issuer anbima">ANBIMA</div>
+                    <div class="cert-name">ESG no Mercado Financeiro</div>
+                    <div class="cert-date">set 2025</div>
+                </div>
+                <div class="cert-card fade">
+                    <div class="cert-issuer latino">UNITED LATINO STUDENTS ASSOC.</div>
+                    <div class="cert-name">IMPACT Tech Summit</div>
+                    <div class="cert-date">mai 2025</div>
+                </div>
+                <div class="cert-card fade">
+                    <div class="cert-issuer cocacola">INSTITUTO COCA-COLA BRASIL</div>
+                    <div class="cert-name">Preparação para o Mercado de Trabalho</div>
+                    <div class="cert-date">mai 2025</div>
+                </div>
+                <div class="cert-card fade">
+                    <div class="cert-issuer usp">USP</div>
+                    <div class="cert-name">Gestão Estratégica de Marcas: Era Digital</div>
+                    <div class="cert-date">dez 2024</div>
+                </div>
+                <div class="cert-card fade">
+                    <div class="cert-issuer usp">USP — PENSA BRASIL</div>
+                    <div class="cert-name">Mudanças Climáticas e Justiça Ambiental</div>
+                    <div class="cert-date">set 2024</div>
+                </div>
+                <div class="cert-card fade">
+                    <div class="cert-issuer usp">USP — PENSA BRASIL</div>
+                    <div class="cert-name">Pensar a Metrópole com Inclusão</div>
+                    <div class="cert-date">set 2024</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="section">
+            <div class="section-label">Contato</div>
+            <h2 class="section-title">Meus Contatos</h2>
+            <div class="contact-grid">
+                <div class="contact-links">
+                    <a href="mailto:gabrielhaogoldie@gmail.com" class="contact-link">
+                        <div>
+                            <div class="contact-info-label">E-mail</div>
+                            <div class="contact-info-value">gabrielhaogoldie@gmail.com</div>
+                        </div>
+                    </a>
+                    <a href="https://wa.me/5511976795325" target="_blank" class="contact-link">
+                        <div>
+                            <div class="contact-info-label">WhatsApp</div>
+                            <div class="contact-info-value">(11) 97679-5325</div>
+                        </div>
+                    </a>
+                    <a href="https://linkedin.com/in/gabriel-teramae-chan-00552a2b7" target="_blank"
+                        class="contact-link">
+                        <div>
+                            <div class="contact-info-label">LinkedIn</div>
+                            <div class="contact-info-value">gabriel-teramae-chan</div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/gabrielteramae" target="_blank" class="contact-link">
+                        <div>
+                            <div class="contact-info-label">GitHub</div>
+                            <div class="contact-info-value">github.com/gabrielteramae</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-copy">© 2026 Gabriel Teramae Chan. Todos os direitos reservados.</div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
