@@ -1,0 +1,44 @@
+# 🧑‍💻 Meu Portfólio – Gabriel Teramae Chan
+  
+Este site foi criado para apresentar minha trajetória, minhas habilidades e 
+
+👉 **Acesse o portfólio aqui:**  
+https://gabrielteramae.github.io/meu-portifolio/
+
+---
+
+## 📌 Sobre o projeto
+
+Este portfólio foi desenvolvido utilizando apenas **HTML, CSS e JavaScript**, garantindo leveza e carregamento rápido.
+
+O site inclui:
+- Minha apresentação e resumo profissional  
+- Habilidades  
+- Projetos  
+- Link para download do meu currículo  
+- Link para o perfil do meu Linkedln
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- **HTML5**  
+- **CSS3**  
+- **JavaScript**  
+
+---
+
+## 🚀 Hospedagem
+
+O site está hospedado no **GitHub Pages**.  
+Acesse em:
+
+🔗 https://gabrielteramae.github.io/meu-portifolio/
+
+---
+
+## 📧 Contato
+
+- **GitHub:** https://github.com/gabrielteramae  
+- **LinkedIn:** https://www.linkedin.com/in/gabriel-teramae-chan-00552a2b7/  
+- **E-mail:** gabrielhaogoldie@gmail.com 
